@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Primary Colors -->
+    <color name="primary">#FF6366F1</color>
+    <color name="primary_dark">#FF4F46E5</color>
+    <color name="primary_light">#FF818CF8</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#FF10B981</color>
+    <color name="secondary_dark">#FF059669</color>
+    <color name="secondary_light">#FF34D399</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent">#FFF59E0B</color>
+    <color name="accent_dark">#FFD97706</color>
+    <color name="accent_light">#FFFBBF24</color>
+    
+    <!-- Background Colors -->
+    <color name="background">#FFF8FAFC</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_variant">#FFF1F5F9</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#FF0F172A</color>
+    <color name="text_secondary">#FF475569</color>
+    <color name="text_disabled">#FF94A3B8</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#FF10B981</color>
+    <color name="warning">#FFF59E0B</color>
+    <color name="error">#FFEF4444</color>
+    <color name="info">#FF3B82F6</color>
+    
+    <!-- Mood Colors -->
+    <color name="mood_happy">#FFFBBF24</color>
+    <color name="mood_good">#FF34D399</color>
+    <color name="mood_neutral">#FF94A3B8</color>
+    <color name="mood_sad">#FF60A5FA</color>
+    <color name="mood_angry">#FFF87171</color>
+    
+    <!-- Hydration Colors -->
+    <color name="water_blue">#FF0EA5E9</color>
+    <color name="water_light">#FFBAE6FD</color>
+    
+    <!-- Card Colors -->
+    <color name="card_background">#FFFFFFFF</color>
+    <color name="card_shadow">#1A000000</color>
+    
+    <!-- Divider -->
+    <color name="divider">#FFE2E8F0</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_line">@color/primary</color>
+    <color name="chart_fill">@color/primary_light</color>
+    <color name="chart_axis">@color/text_secondary</color>
+    <color name="chart_grid">@color/divider</color>
+</resources>

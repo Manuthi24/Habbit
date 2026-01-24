@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/widget_background"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textWidgetTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/widget_title"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textWidgetDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dec 15"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <!-- Habits Progress -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textHabitsLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/widget_habits_completed"
+                android:textColor="@color/text_primary"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textHabitsProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/0"
+                android:textColor="@color/primary"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBarHabits"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="4dp"
+            android:progressTint="@color/primary" />
+
+    </LinearLayout>
+
+    <!-- Water Progress -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/textWaterLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/widget_water_glasses"
+                android:textColor="@color/text_primary"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textWaterProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0/8"
+                android:textColor="@color/water_blue"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBarWater"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="4dp"
+            android:progressTint="@color/water_blue" />
+
+    </LinearLayout>
+
+</LinearLayout>

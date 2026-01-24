@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Primary Colors - User-friendly dark theme colors -->
+    <color name="primary">#FF6366F1</color>
+    <color name="primary_dark">#FF4F46E5</color>
+    <color name="primary_light">#FF818CF8</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#FF10B981</color>
+    <color name="secondary_dark">#FF059669</color>
+    <color name="secondary_light">#FF34D399</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent">#FFF59E0B</color>
+    <color name="accent_dark">#FFD97706</color>
+    <color name="accent_light">#FFFBBF24</color>
+    
+    <!-- Background Colors - Softer, more comfortable dark theme -->
+    <color name="background">#FF121212</color>
+    <color name="surface">#FF1E1E1E</color>
+    <color name="surface_variant">#FF2D2D2D</color>
+    
+    <!-- Text Colors - High contrast for excellent readability -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#FFCBD5E1</color>
+    <color name="text_disabled">#FF71717A</color>
+    
+    <!-- Status Colors - Vibrant but not harsh -->
+    <color name="success">#FF4CAF50</color>
+    <color name="warning">#FFFF9800</color>
+    <color name="error">#FFF44336</color>
+    <color name="info">#FF2196F3</color>
+    
+    <!-- Mood Colors - Pleasant and readable -->
+    <color name="mood_happy">#FF4CAF50</color>
+    <color name="mood_good">#FF2196F3</color>
+    <color name="mood_neutral">#FF9E9E9E</color>
+    <color name="mood_sad">#FF9C27B0</color>
+    <color name="mood_angry">#FFF44336</color>
+    
+    <!-- Hydration Colors -->
+    <color name="water_blue">#FF03A9F4</color>
+    <color name="water_light">#FF1A1A1A</color>
+    
+    <!-- Card Colors - Subtle elevation -->
+    <color name="card_background">#FF1E1E1E</color>
+    <color name="card_shadow">#33000000</color>
+    
+    <!-- Divider -->
+    <color name="divider">#FF2A2A2A</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_line">#FF8B95FF</color>
+    <color name="chart_fill">#332D3BFF</color>
+    <color name="chart_axis">#FF94A3B8</color>
+    <color name="chart_grid">#FF2A2A2A</color>
+</resources>

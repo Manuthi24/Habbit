@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/habitsFragment">
+
+    <fragment
+        android:id="@+id/habitsFragment"
+        android:name="com.example.habittrackerapplication.fragments.HabitsFragment"
+        android:label="@string/nav_habits" />
+    
+    <fragment
+        android:id="@+id/moodFragment"
+        android:name="com.example.habittrackerapplication.fragments.MoodFragment"
+        android:label="@string/nav_mood" />
+    
+    <fragment
+        android:id="@+id/hydrationFragment"
+        android:name="com.example.habittrackerapplication.fragments.HydrationFragment"
+        android:label="@string/nav_hydration" />
+    
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.habittrackerapplication.fragments.SettingsFragment"
+        android:label="@string/nav_settings" />
+    
+    <fragment
+        android:id="@+id/moodChartFragment"
+        android:name="com.example.habittrackerapplication.fragments.MoodChartFragment"
+        android:label="@string/nav_mood_chart" />
+
+</navigation>
