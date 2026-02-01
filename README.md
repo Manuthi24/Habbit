@@ -1,4 +1,13 @@
 # Habbit - Personal Wellness Companion
+![Kotlin](https://img.shields.io/badge/Kotlin-1.8%2B-blueviolet)
+![Android](https://img.shields.io/badge/Android-Android%20Studio-green)
+![Material Design](https://img.shields.io/badge/Material%20Design-UI%20UX-orange)
+![MPAndroidChart](https://img.shields.io/badge/MPAndroidChart-Data%20Visualization-red)
+![WorkManager](https://img.shields.io/badge/WorkManager-Background%20Tasks-lightgrey)
+![SharedPreferences](https://img.shields.io/badge/SharedPreferences-Data%20Persistence-yellowgreen)
+![Mobile App](https://img.shields.io/badge/Mobile%20App-Wellness%20Tracker-brightgreen)
+![Portfolio Project](https://img.shields.io/badge/Type-Portfolio%20Project-important)
+
 
 Habbit is a comprehensive Android application designed to help users manage their daily health routines and track their wellness journey. Built with Kotlin and Android Studio, it combines multiple features to promote personal wellness.
 
